@@ -1814,3 +1814,11 @@ git config --global user.email "abc@gmail.com"
 
 git config --global user.name "Your Name"
 git config --global user.email "abc@gmail.com"
+
+git config --global user.name "Your Name"
+git config --global user.email "abc@gmail.com"
+
+git config --global user.name "Your Name"
+git config --global user.email "abc@gmail.com"
+
+
