@@ -1,0 +1,822 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Slab:wght@100..900&display=swap'); */
+/* h1{
+    background-color: blueviolet;
+} */
+
+/* Selector */
+
+/* 1. Element Selector */
+/* h1{
+    background-color: blueviolet;
+} */
+
+/* 2. Class Selector (.) */
+/* .dim{
+    background-color: yellow;
+} */
+
+/* 3. Id Selector (#)*/
+/* #head{
+    background-color: darkgreen;
+} */
+
+/* 4. Universal Selector (*) */
+/* *{
+    border: 2px solid blueviolet;
+} */
+
+/* id >> class >> element >> universal  */
+
+/* #head{
+    background-color: yellow;
+}
+
+.heading{
+    background-color: tomato;
+}
+
+h1{ */
+/* background-color: darkkhaki; */
+/* }
+
+*{
+    background-color: aqua;
+    border: 2px solid red;
+} */
+
+/* h1{
+    background-color: yellow;
+    background-color: darkcyan;
+    background-color: tomato;
+}
+
+h1{
+    background-color: darkmagenta;
+} */
+
+/* Color */
+/* 1. color name */
+/* h1{
+    background-color: orangered;
+} */
+
+/* 2. Hex Value */
+/* #rrggbb */
+/* r, g, b ---> Hexadecimal Values (0 to 9, A to F) */
+/* h1{
+    background-color: #55059b;
+} */
+
+/* 3. RGB Values */
+/* rgb(red, green, blue) */
+/* 0 to 255 */
+/* h1{
+    background-color: rgb(100, 150, 200);
+} */
+
+/* 4. RGBA Value */
+/* rgba(red, green, blue, alpha) */
+/* a ---> 0 to 1 */
+/* h1{
+    background-color: rgba(1, 1, 73, 0.3);
+} */
+
+/* 5. hsl value */
+/* hsl(hue, saturation, lightness) */
+/* hue ---> 0 to 360 deg */
+/* saturation and lightness ---> % */
+/* h1{
+    background-color: hsl(200deg, 30%, 50%);
+} */
+
+/* 6. hsla value */
+/* hsl(hue, saturation, lightness, alpha) */
+/* h1{
+    background-color: hsla(200deg, 80%, 50%, 0.5);
+    color: yellow;
+} */
+
+/* h1{
+    border: 2px solid red;
+    text-align: left;
+} */
+
+/* p{ */
+/* text-align: justify; */
+/* } */
+
+/* h1{ */
+/* text-decoration: overline; */
+/* text-decoration: line-through; */
+/* text-decoration: underline; */
+/* text-decoration: underline line-through;
+    text-decoration-color: yellow; */
+/* text-transform: uppercase; */
+/* text-transform: lowercase; */
+/* text-transform: capitalize;
+} */
+
+/* a{
+    text-decoration: none;
+} */
+
+/* p{ */
+/* text-indent: 50px; */
+/* letter-spacing: 5px; */
+/* letter-spacing: -5px; */
+/* line-height: 0; */
+/* word-spacing: 20px;
+} */
+
+/* h1{
+    color: blueviolet; */
+/* text-shadow: 5px 5px; */
+/* text-shadow: 5px 5px 5px; */
+/* text-shadow: 5px 5px 5px yellow;
+} */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow; */
+/* box-shadow: 5px 5px; */
+/* box-shadow: 5px 5px 5px; */
+/* box-shadow: 5px 5px 5px 5px gray; */
+/* box-shadow: 5px 5px 5px inset gray; */
+/* box-shadow: 5px 5px 5px gray; */
+/* box-shadow: 5px 5px 5px gray, 10px 10px 5px blueviolet, 15px 15px 5px darkgreen;
+} */
+
+/* p { */
+/* font-family: 'Courier New', Courier, monospace; */
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+/* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+/* font-family: "DM Sans", sans-serif; */
+/* font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+} */
+
+/* div {
+  font-family: "Roboto Slab", serif;
+} */
+
+/* CSS Units */
+
+/* 1. Absolute */
+/*
+A. cm
+B. mm
+C. in
+D. px
+E. pt
+F. pc 
+*/
+
+/* 2. Relative */
+/*
+A. em
+B. rem
+C. vw
+D. vh
+E. %
+*/
+
+/* CSS Background */
+/* .box-1{
+    height: 100vh;
+    border: 2px solid red; */
+/* background-color: blueviolet; */
+/* opacity: 0.5; */
+/* background-image: url("../images/banner.jpg"); */
+/* background-size: auto; */
+/* background-size: contain; */
+/* background-size: cover; */
+/* background-position: center; */
+/* color: yellow;
+}
+
+.box-2{
+    height: 100vh;
+    border: 2px solid yellow; */
+/* background-image: url("../images/img3.jpg"); */
+/* background-repeat: no-repeat; */
+/* background-repeat: repeat-y; */
+/* background-size: 400px 500px; */
+/* background-position: bottom right; */
+/* }
+
+.box-3{
+    height: 100vh;
+    border: 2px solid darkolivegreen; */
+/* background-image: url("https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=352&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* background-repeat: repeat-y; */
+/* background-position: center; */
+/* }
+
+.box-4{
+    height: 100vh;
+    border: 2px solid darkmagenta;
+    background-image: url("../images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+/* background-repeat: repeat-y; */
+/* background-size: 400px 500px; */
+/* background-position: center;
+    background-attachment: fixed;
+    color: slateblue;
+} */
+
+/* CSS Gradient */
+/* .box{
+    height: 100vh;
+    border: 2px solid yellow; */
+/* background-image: linear-gradient(green, yellow, orange, blueviolet); */
+/* background-image: linear-gradient(to right, green, yellow, orange, blueviolet); */
+/* background-image: linear-gradient(to right bottom, green, yellow, orange, blueviolet); */
+/* background-image: linear-gradient(45deg, green, yellow, orange, blueviolet); */
+/* background-image: linear-gradient(to right, green 10%, yellow 30%, orange 35%, blueviolet 40%); */
+/* background-image: radial-gradient(green, yellow, orange, blueviolet);
+    background-image: radial-gradient(circle, green, yellow, orange, blueviolet);
+} */
+
+/* Box Model */
+/* .box{
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid red;
+}
+
+.box-1{
+    height: 100px;
+    width: 200px;
+    padding: 20px; */
+/* margin: 10px; */
+/* border: 5px solid yellow;
+} */
+
+/* Margin */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    border: 2px solid red;
+}
+.box-1{
+    background-color: blueviolet;
+    border: 2px solid green;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.box-2{
+    margin: 10px;
+    background-color: yellow;
+    border: 2px solid blueviolet;
+    font-size: 30px; */
+/* margin: 20px; */
+/* margin: 20px 40px; */
+/*      top/bottom left/right */
+/* margin: 10px 20px 30px 40px; */
+/*       top  right bottom left */
+/* margin-bottom: 20px; */
+/* padding: 50px; */
+/* padding: 50px 25px; */
+/* padding: 10px 20px 30px 40px; */
+/* padding-right: 20px;
+     */
+/* height: 50px;
+     width: 50%; */
+/* max-height: 400px;
+     max-width: 80%;
+
+
+
+
+     min-width: 50%;
+     min-height: 200px;
+
+} */
+
+/* .box-3{ */
+/* margin-top: 50px; */
+/* border: 2px solid orange;
+    background-color: darkmagenta;
+    font-size: 30px;
+    margin: 10px;
+} */
+
+/* Border */
+/* .h1{ */
+/* border-style: dashed dotted groove double; */
+/* border-style: dashed; */
+/* border-width: 5px 7px 9px 12px; */
+/* border-width: 10px; */
+/* border-color: blueviolet yellow red green; */
+/* border-color: blueviolet; */
+
+/* border: 10px dashed blueviolet;
+}
+
+.h2{ */
+/* border: 10px dotted blueviolet; */
+/* border-style: dotted;
+}
+
+.h3{ */
+/* border: 10px do blueviolet; */
+/* border-style: double;
+}
+
+.h4{ */
+/* border: 10px dashed blueviolet; */
+/* border-style: groove;
+}
+
+.h5{ */
+/* border: 10px dashed blueviolet; */
+/* border-style: inset;
+}
+
+.h6{ */
+/* border: 10px dashed blueviolet; */
+/* border-style: solid;
+}
+
+.h7{ */
+/* border: 10px dashed blueviolet; */
+/* border-style: outset;
+}
+
+.h8{ */
+/* border: 10px dashed blueviolet; */
+/* border-style: ridge;
+} */
+
+/* .h1{
+    background-color: yellow;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.h2{
+    background-color: blueviolet; */
+/* display: none; */
+/* visibility: hidden; */
+/* height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.h3{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+} */
+
+/* Position */
+/*
+1. Static
+2. relative
+3. fixed
+4. absolute
+5. sticky
+
+
+left, right, top, bottom
+
+ */
+
+/* .parent{ */
+/* border: 2px solid red; */
+/* position: relative; */
+/* }
+
+.b1{
+    background-color: yellow;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.b2{
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    margin: 10px; */
+/* position: relative; */
+/* position: absolute; */
+/* position: fixed; */
+/* position: sticky;
+    left: 100px;
+    top: 100px;
+}
+
+.b3{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+} */
+
+/* Overflow */
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red; */
+/* overflow: scroll; */
+/* overflow: auto; */
+/* } */
+
+/* float property */
+/* .h1{
+    border: 2px solid red;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    display: inline-block; */
+/* float: left; */
+/* }
+
+.h2{
+    border: 2px solid yellow;
+    margin-bottom: 10px;
+    display: inline-block;
+
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet; */
+/* float: right; */
+/* } */
+
+/* Combinators */
+/* 1. Decendent Selector (Space) */
+/* 2. Child Selector (>) */
+/* 3. Adjecent Sibiling Selector (+) */
+/* 4. General Siblings Selectors (~) */
+
+/* div ~ p{
+    color: yellow;
+} */
+
+/* Pseudo Classes (:) */
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid red; */
+/* cursor: pointer; */
+/* border-radius: 50%; */
+/* }
+
+.box:hover{
+    background-color: blueviolet;
+}
+
+.anchor:link{
+    color: red;
+}
+
+.anchor:visited{
+    color: green;
+}
+
+.anchor:hover{
+    color: orange;
+
+}
+
+.anchor:active{
+    color: black;
+} */
+
+/* p:first-child{
+    color: orange;
+} */
+
+/* p:nth-child(even){
+    color: orange;
+} */
+
+/* Pseudo Elements (::) */
+/* p::first-line{
+    color: yellow;
+} */
+
+/* p::first-letter{
+    color: yellow;
+    font-size: 30px;
+} */
+
+/* .parent{
+    border: 2px solid red;
+    display: flex;
+}
+
+.sec-1{ */
+/* border: 2px solid yellow; */
+/* font-size: 70px;
+}
+
+.sec-2{ */
+/* border: 2px solid blueviolet; */
+/* display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* CSS Transition */
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border: 2px solid red; */
+/* transition: width 0.3s ease; */
+/* transition: all 1s ease;
+}
+
+
+.box:hover{
+    width: 300px;
+    background-color: blueviolet;
+} */
+
+/* CSS Animation */
+
+/* .box {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  border: 2px solid red; */
+/* animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse; */
+/* position: relative;
+
+  animation: example 4s ease 1s infinite alternate-reverse;
+}
+
+@keyframes example {
+  from {
+    background-color: orange;
+    left: 0px;
+  }
+  to {
+    background-color: blueviolet;
+    left: 200px;
+  }
+} */
+
+/* @keyframes example1{
+    0%{
+        background-color: orange;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: darkgoldenrod;
+    }
+    100%{
+        background-color: tomato;
+    }
+
+} */
+
+/* CSS VARIABLES */
+/* :root{
+    --blue: yellow;
+    --size: 50px;
+    --border: 4px dotted blueviolet;
+    --even: darkgreen;
+}
+
+.even{
+    background-color: var(--even);
+}
+
+h1{ */
+/* border-style: g; */
+/* background-color: var(--blue);
+    font-size: var(--size);
+    border: var(--border);
+} */
+
+/* Media Quries */
+/* @media screen and (min-width: 400px){} */
+/* .box-1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: yellow;
+} */
+
+/* @media screen and (min-width: 800px){
+    .box-1{
+        height: 100vh;
+        width: 100vw;
+        background-color: blueviolet;
+    }
+
+} */
+
+/* @media screen and (max-width: 800px){
+    .box-1{
+        height: 50vh;
+        width: 50vw;
+        background-color: blueviolet;
+    }
+} */
+
+/* @media screen and (max-width: 800px) and (min-width: 600px) {
+  .box-1 {
+    height: 50vh;
+    width: 50vw;
+    background-color: blueviolet;
+  }
+} */
+
+/* CSS FLEXBOX */
+/* .parent {
+  border: 2px solid red;
+  padding: 10px;
+  display: flex; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: wrap; */
+  /* flex-flow: row-reverse wrap; */
+  /* justify-content: space-between; */
+  /* height: 100vh; */
+  /* align-items: center; */
+  /* align-content: space-evenly; */
+  /* justify-content: center;
+  align-items: center; */
+/* }
+
+.child-1,
+.child-2,
+.child-3,
+.child-4 {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+.child-1 {
+  background-color: yellow; */
+  /* order: 2; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 3; */
+  /* flex-basis: 500px; */
+  /* align-self: flex-start;
+}
+
+.child-2 {
+  background-color: tomato; */
+  /* order: 3; */
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+  /* align-self: center;
+}
+
+.child-3 {
+  background-color: blueviolet; */
+  /* order: 1; */
+  /* flex-grow: 1; */
+  /* align-self: flex-end;
+}
+
+.child-4 {
+  background-color: darkmagenta;
+}
+
+
+.container{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.left{ */
+    /* border: 2px solid yellow; */
+    /* display: flex;
+    width: 50%;
+}
+
+.right{ */
+    /* border: 2px solid darkolivegreen; */
+    /* width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.one{
+    background-color: yellow;
+}
+
+.two{
+    background-color: tomato;
+}
+
+.three{
+    background-color: green;
+} */
+
+/* CSS Transform */
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 50px;
+    text-align: center;
+    transition: all 0.3s ease;
+    
+}
+
+.box:hover{ */
+    /* transform: rotate(95deg); */
+    /* transform: scale(1.2); */
+    /* transform: scale(1.2, 1.5); */
+    /* transform: scaleY(1.2); */
+    /* transform: translate(50px, 100px); */
+    /* transform: skew(20deg, 10deg);
+
+} */
+
+/* CSS GRID */
+/* 
+.container{
+    border: 2px solid red;
+    text-align: center;
+    display: grid;
+    height: 100vh; */
+    /* width: 80vw; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: 150px 180px 200px; */
+    /* grid-template-areas: 
+    "header header header header header header"
+    "navbar main main main main right"
+    "navbar footer footer footer footer footer"; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* gap: 20px; */
+    /* row-gap: 50px;
+    column-gap: 50px; */
+    /* grid-template-columns: auto auto auto; */
+    /* justify-content: end; */
+    /* align-content: space-around;
+}
+
+.grid-item{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+} */
+
+/* .item-1{
+    background-color: tomato;
+    grid-area: header;
+}
+.item-2{
+    background-color: yellow;
+    grid-area: navbar;
+}
+.item-3{
+    background-color: green;
+    grid-area: main;
+}
+.item-4{
+    background-color: darkmagenta;
+    grid-area: right;
+}
+.item-5{
+    background-color: blueviolet;
+    grid-area: footer; */
+    /* grid-row: 1/2;
+    grid-column: 1/2; */
+/* } */
